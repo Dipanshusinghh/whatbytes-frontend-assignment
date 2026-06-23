@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Whatbytes Frontend Assignment
 
-## Getting Started
+Welcome to my frontend internship assignment submission for Whatbytes. This project is a fully responsive, modern E-commerce frontend built using Next.js 15, Tailwind CSS, and React Context for state management.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Home Page**: Displays a responsive product grid with dynamic sidebar filtering for categories and prices using URL search parameters.
+- **Product Detail Page**: A dynamic route (`/product/[id]`) showcasing product details, an image gallery, and "Add to Cart" functionality.
+- **Cart System**: Fully functional cart with persistent state (using `localStorage`), item quantity controls, item removal, and real-time subtotal/tax calculations.
+- **Modern UI/UX**: Clean, premium design utilizing Tailwind CSS and `lucide-react` icons.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Technology Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Icons**: [lucide-react](https://lucide.dev/)
+- **State Management**: React Context API
+- **Deployment**: [Vercel](https://vercel.com)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💻 Running Locally
 
-## Learn More
+To run this project locally on your machine:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Dipanshusinghh/whatbytes-frontend-assignment.git
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Install the dependencies:
+   ```bash
+   cd whatbytes-frontend-assignment
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌐 Live Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[**View the live application here**](#) *(Add Vercel URL here once deployed)*
+
+---
+*Created by Dipanshu Singh for the Whatbytes Frontend Internship Assignment.*
