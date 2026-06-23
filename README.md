@@ -43,5 +43,7 @@ To run this project locally on your machine:
 
 [**View the live application here**](https://whatbytes-frontend-assignment-dipanshusinghhs-projects.vercel.app/)
 
+**Live URL:** `https://whatbytes-frontend-assignment-dipanshusinghhs-projects.vercel.app/`
+
 ---
 *Created by Dipanshu Singh for the Whatbytes Frontend Internship Assignment.*
