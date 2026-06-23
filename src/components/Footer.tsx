@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Twitter, Instagram, Github } from 'lucide-react';
+import { Mail, Phone, MapPin, Globe } from 'lucide-react';
 import Link from 'next/link';
 
 export function Footer() {
@@ -30,19 +30,19 @@ export function Footer() {
           </div>
           
           <div>
-            <h3 className="text-white font-semibold mb-4 uppercase tracking-wider text-sm">Follow Us</h3>
+            <h3 className="text-white font-semibold mb-4 uppercase tracking-wider text-sm">Contact Us</h3>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors">
-                <Facebook className="w-5 h-5" />
+                <Globe className="w-5 h-5" />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-400 hover:text-white transition-colors">
-                <Twitter className="w-5 h-5" />
+                <Mail className="w-5 h-5" />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 hover:text-white transition-colors">
-                <Instagram className="w-5 h-5" />
+                <Phone className="w-5 h-5" />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 hover:text-white transition-colors">
-                <Github className="w-5 h-5" />
+                <MapPin className="w-5 h-5" />
               </a>
             </div>
           </div>
