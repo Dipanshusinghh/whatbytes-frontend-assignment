@@ -41,7 +41,7 @@ To run this project locally on your machine:
 
 ## 🌐 Live Deployment
 
-[**View the live application here**](#) *(Add Vercel URL here once deployed)*
+[**View the live application here**](https://whatbytes-frontend-assignment-dipanshusinghhs-projects.vercel.app/)
 
 ---
 *Created by Dipanshu Singh for the Whatbytes Frontend Internship Assignment.*
